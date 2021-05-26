@@ -40,9 +40,9 @@ def result():
 
     # for No Stroke Risk
     if Y_pred==0:
-        return render_template('C:/Users/staff/Desktop/Staffin/PROJ/StrokePrediction/Final/templates/nostroke.html')
+        return render_template('nostroke.html')
     else:
-        return render_template('C:/Users/staff/Desktop/Staffin/PROJ/StrokePrediction/Final/templates/stroke.html')
+        return render_template('stroke.html')
 
 if __name__=="__main__":
     app.run(debug=True,port=7384)
